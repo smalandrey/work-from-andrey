@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tesla</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- //HEADER -->
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="header__logo">
+					<img src="img/logo/logo.png" alt="logo">
+				</div>
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__item"><a href="#" class="header__link">Новости</a></li>
+						<li class="header__item"><a href="#" class="header__link">Связаться</a></li>
+						<li class="header__item"><a href="#" class="header__link">Характеристики</a></li>
+						<li class="header__item"><a href="#" class="header__link">Мощность</a></li>
+					</ul>
+				</nav>
+					<button class="header__hamburger hamburger">Открыть меню</button>
+			</div>
+			<div class="header__content">
+					<h1 class="header__content-title">
+						Roadster
+					</h1>
+					<div class="header__content-text">
+						Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью.
+					</div>
+					<a href="#" class="header__content-link">Хочу тест драйв</a>
+				</div>
+		</div>
+	</header>
+<!-- //SPEED-INFORMAL -->
+	<section>
+		<div class="container">
+			<div class="speed">
+				<div class="speed__info">
+					<h4 class="speed__info-title">Двигатель</h4>
+					<p class="speed__info-number">2,1 <span class="speed__info-seconds">сек</span></p>
+					<p class="speed__info-description">
+						разгон до 100 км
+					</p>
+				</div>
+				<div class="speed__info">
+					<h4 class="speed__info-title">Батарея</h4>
+					<p class="speed__info-number">1000<span class="speed__info-seconds">км</span></p>
+					<p class="speed__info-description">
+						запас хода
+					</p>
+				</div>
+				<div class="speed__info">
+					<h4 class="speed__info-title">Скорость</h4>
+					<p class="speed__info-number">400<span class="speed__info-seconds">км/ч</span></p>
+					<p class="speed__info-description">
+						макс скорость
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //SLIDER -->
+	<section>
+		<div class="container">
+			<div class="slider">
+				<div class="slider__item" style="background-image: url(img/slider.jpg);">
+				</div>
+				<div class="slider__item" style="background-image: url(img/slider.jpg);">
+				</div>
+				<div class="slider__item" style="background-image: url(img/slider.jpg);">
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- BLOCK-PHOTO -->
+	<section class="section">
+		<div class="section__content">
+			<div class="container">
+				<div class="section__body">
+					<div class="section__text">
+						<h2 class="section__text-title">Скорость</h2>
+						<p class="section__text-description">Самый быстроразгоняющийся серийный автомобиль из когда-либо созданных</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+			<div class="section__image">
+				<img src="img/informal-1.jpg" alt="photo">
+			</div>	
+	</section>
+<!-- BLOCK-PHOTO -->
+		<section class="section">
+		<div class="section__content">
+			<div class="container">
+				<div class="section__body">
+					<div class="section__text">
+						<h2 class="section__text-title">Преимущества</h2>
+						<p class="section__text-description">Самый быстроразгоняющийся серийный автомобиль из когда-либо созданных</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+			<div class="section__image">
+				<img src="img/informal-2.jpg" alt="photo">
+			</div>	
+	</section>
+	<!-- INFORMAL-SECTION -->
+	<section>
+		<div class="container">
+			<div class="option">
+				<div class="option__first">
+					<span class="option__first-span">01</span>
+					<p class="option__first-text">Новый родстер был разработан бывшим дизайнером Mazda Францем фон Хольцхаузеном. Имеет съёмную стеклянную крышу и кузов с двумя передними сиденьями плюс два небольших сиденья сзади.</p>
+				</div>
+				<div class="option__first">
+					<span class="option__first-span">02</span>
+					<p class="option__first-text">Родстер имеет три электродвигателя, один спереди и два сзади, Они обеспечивают полный привод, а также систему адресного распределения крутящего момента для лучшего прохождения поворотов.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer class="red">
+		<div class="container">
+			<div class="test">
+				<a href="#" class="test__link">Хочу тест</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="js/script.js"></script>
+	
+	<!-- SLIDER-JQUERY -->
+	<script>
+		$(".slider").slick();
+	</script>
+</body>
+</html>
